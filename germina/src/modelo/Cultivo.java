@@ -19,9 +19,7 @@ public class Cultivo implements Serializable {
     private boolean cosechado;
     private final List<Tarea> tareas;
 
-    public Cultivo(String especie, Familia familia, String bancal,
-                   LocalDate fechaSiembra, int diasHastaCosecha,
-                   int riegoCadaDias) {
+    public Cultivo(String especie, Familia familia, String bancal, LocalDate fechaSiembra, int diasHastaCosecha, int riegoCadaDias) {
         this.id = UUID.randomUUID();
         this.especie = especie;
         this.familia = familia;
