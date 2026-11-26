@@ -10,10 +10,7 @@ public abstract class BaseView {
     }
 
     public abstract void iniciar();
-
     public abstract void mostrarMensaje(String mensaje);
-
     public abstract void mostrarError(String mensaje);
-
     public abstract void finalizar();
 }
